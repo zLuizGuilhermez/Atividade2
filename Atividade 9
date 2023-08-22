@@ -1,0 +1,24 @@
+Atividade 9
+Escreva um algoritmo para ler o salário mensal atual de um funcionário e o percentual de reajuste. Calcular e escrever o valor do novo salário.
+
+#include<stdio.h>
+#include<math.h>
+
+
+main(){
+
+  float salario = 0.0, rea=0.0 , reaju=0.0, novo = 0.0;
+  
+  printf("Insira seu salario aqui:");
+  scanf("%f", &salario);
+
+  printf("Insira o percentual de reajuste:");
+  scanf("%f", &rea);
+  
+  reaju = ((rea / 100) + (float)1.00);
+
+  novo = (reaju * salario);
+
+  printf("Seu salario reajustado e:%.2f", novo);
+
+}
