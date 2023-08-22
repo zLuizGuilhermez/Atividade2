@@ -1,0 +1,30 @@
+Atividade 1 
+
+
+
+#include<stdio.h>
+#include<math.h>
+
+
+/// @brief 
+main(){
+//operador soma +
+
+    int numero1, numero2, soma, dubtra, multi;
+    float div;
+
+    printf("Digite um numero :");
+    scanf("%d %d", &numero1,  &numero2 );
+    
+    soma= numero1 + numero2;
+    dubtra= numero1 - numero2;
+    multi= numero1 * numero2;
+    div = (float)numero1 / (float)numero2;
+
+
+    printf("o resultado da soma: %d, subtracao: %d, \n multiplicacao:%d, \n divisao: %d", soma,dubtra, multi, div);
+    
+
+
+
+}
