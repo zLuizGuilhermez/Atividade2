@@ -1,0 +1,38 @@
+Atividade 5
+#include<stdio.h>
+
+
+main(){
+
+   int custo, frete, taxa, valorbruto, venda, lucro;
+
+   printf("Digite o valor do seu produto:");
+   scanf("%d", &custo);
+   
+   printf("Digite o valor do frete:");
+   scanf("%d", &frete);
+
+   printf("Digite a taxa, se houver:");
+   scanf("%d", &taxa);
+
+   valorbruto = custo + frete + taxa;
+
+   printf("Seu valor bruto: %d", valorbruto);
+
+   printf("\n valor da venda:");
+   scanf("%d", venda);
+   
+
+   lucro = ((venda - valorbruto)/valorbruto * 100);
+
+
+   printf("Valor do lucro: %d%%", lucro);
+
+   
+
+
+
+
+
+
+}
