@@ -1,0 +1,26 @@
+Atividade 7
+Escreva um programa que pergunte qual o raio de um círculo e imprima a sua área. 
+
+#include<stdio.h>
+#include<math.h>
+
+
+/// @brief 
+main(){
+
+
+
+   
+   int raio = 0 ;
+   float pi = 3.14, multi = 0.0;
+
+
+
+   printf("Digite o seu raio:");
+   scanf("%d", &raio);
+
+      multi =(pow(raio, 2)*pi);
+
+   printf("O resultado da area e:%f", multi); 
+
+}
