@@ -1,0 +1,25 @@
+Atividade 8 
+Faça um algoritmo que leia a idade de uma pessoa expressa em anos, meses e dias e escreva a idade dessa pessoa expressa apenas em dias. 
+Considerar ano com 365 dias e mês com 30 dias.
+
+#include<stdio.h>
+
+
+
+main(){
+
+   int ano = 0, mes=0 , dia= 0, tudo;
+     
+
+   printf("Qual a sua idade em anos, meses, e dias ?");
+   scanf("%d %d %d", &ano, &mes, &dia);
+
+     ano = 365 * ano;
+     mes = 30 * mes;
+     tudo = ano + mes + dia;
+
+     printf("O total da sua idade em dias e:%d", tudo);
+
+     
+
+}
