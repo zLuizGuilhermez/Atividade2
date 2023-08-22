@@ -1,0 +1,31 @@
+Atividade 10
+
+O custo de um carro novo ao consumidor é a soma do custo de fábrica com a porcentagem do distribuidor e dos impostos (aplicados ao custo de fábrica).
+Supondo que o percentual do distribuidor seja de 28% e os impostos de 45%, escrever um algoritmo para ler o custo de fábrica de um carro, calcular e escrever o custo final ao consumidor
+
+
+#include<stdio.h>
+#include<math.h>
+
+
+main(){
+
+    int   distri = 28, impostos = 45, somadosimpostos = 0;
+    float taxas = 0.0, novoCusto = 0.0, custoInicial = 0.0;
+
+    printf("Qual valor do carro inicialmente?");
+    scanf("%f", &custoInicial);
+
+    somadosimpostos= distri + impostos;
+
+    taxas = ((somadosimpostos * 0.01) + 1.00);
+    
+    novoCusto = taxas * custoInicial;
+
+    printf("O valor final e: %.2f", novoCusto );
+
+
+   
+    return 0;
+
+}
