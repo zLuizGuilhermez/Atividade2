@@ -1,0 +1,39 @@
+Atividade 11
+Uma revendedora de carros usados paga a seus funcionários vendedores um salário fixo por mês, mais uma comissão também fixa para cada carro vendido e mais 5% do valor das vendas por ele efetuadas. 
+Escrever um algoritmo que leia o número de carros por ele vendidos, o valor total de suas vendas, o salário fixo e o valor que ele recebe por carro vendido. 
+Calcule e escreva o salário final do vendedor.
+
+
+
+#include<stdio.h>
+#include<math.h>
+
+
+main(){
+
+   int salario = 0, comifixa = 0 ,carros = 0, valorTotal = 0;
+   float comifixa2 = 0.0, comivariavel2 = 0.0, salarioFinal = 0.0;
+
+   printf("Digite seu salario:");
+   scanf("%d", &salario);   
+   
+   printf("Digite a sua comissão para cada carro vendido:");
+   scanf("%d", &comifixa);
+   
+   printf("Qual o total do numero de carros vendidos?");
+   scanf("%d", &carros);
+
+   printf("Qual o valor total das vendas?");
+   scanf("%d", &valorTotal);
+
+   comifixa2 = (carros * comifixa);
+   comivariavel2 = (valorTotal * 0.05);
+   salarioFinal= (salario + comivariavel2 + comifixa2);
+
+   printf("O seu salario final e: %.2f", salarioFinal);
+
+
+
+
+
+}
