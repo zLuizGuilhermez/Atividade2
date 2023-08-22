@@ -1,0 +1,19 @@
+Atividade 3 
+#include<stdio.h>
+
+main(){
+
+   int num1,num2, multi;
+
+   printf("Digite a sua base:");
+   scanf("%d", &num1);
+   printf("Digite a sua altura:");
+   scanf("%d", &num2);
+
+   multi= num1 * num2;
+
+printf("A sua area e: %d", multi);
+
+
+
+}
