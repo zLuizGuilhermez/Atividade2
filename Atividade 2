@@ -1,0 +1,17 @@
+Atividade 2 
+#include<stdio.h>
+
+
+main(){
+
+   int num1, num2=2, multi;
+
+printf("Digite um numero:");
+scanf("%d", &num1);
+
+multi = num1 * num2;
+
+printf("O resultado e: %d", multi);
+
+
+}
